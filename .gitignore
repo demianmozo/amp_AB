@@ -1,0 +1,53 @@
+# KiCad 6 y superior .gitignore
+
+# Archivos temporales y de bloqueo de KiCad
+*.lck
+*~
+_autosave-*
+*.tmp
+
+# Copias de seguridad automáticas (Backups)
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.bck
+
+# Caché de KiCad
+fp-info-cache
+
+# Archivos de Netlist (se generan a partir del esquemático)
+*.net
+
+# Salidas de fabricación (Archivos Gerber, Drill, PDFs, etc.)
+# Nota: Es recomendable ignorar los archivos de fabricación para no ensuciar el historial de Git.
+# Adapta los nombres de las carpetas si usas otros distintos.
+/gerbers/
+/fabrication/
+/outputs/
+/produccion/
+*.gbr
+*.drl
+*.gbo
+*.gbp
+*.gbs
+*.gto
+*.gtp
+*.gts
+*.gm1
+*.gm*
+*.gbl
+*.gtl
+*.pos
+*.d356
+
+# Archivos de log y reportes de errores
+*.rpt
+*.erc
+*.drc
+
+# Archivos de simulación (si haces simulaciones con ngspice/LTspice en la misma carpeta)
+*.raw
+*.log
+*.op.raw
