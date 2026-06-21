@@ -20,27 +20,6 @@ fp-info-cache
 # Archivos de Netlist (se generan a partir del esquemático)
 *.net
 
-# Salidas de fabricación (Archivos Gerber, Drill, PDFs, etc.)
-# Nota: Es recomendable ignorar los archivos de fabricación para no ensuciar el historial de Git.
-# Adapta los nombres de las carpetas si usas otros distintos.
-/gerbers/
-/fabrication/
-/outputs/
-/produccion/
-*.gbr
-*.drl
-*.gbo
-*.gbp
-*.gbs
-*.gto
-*.gtp
-*.gts
-*.gm1
-*.gm*
-*.gbl
-*.gtl
-*.pos
-*.d356
 
 # Archivos de log y reportes de errores
 *.rpt
