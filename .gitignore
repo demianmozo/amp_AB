@@ -30,3 +30,15 @@ fp-info-cache
 *.raw
 *.log
 *.op.raw
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS resource fork files
+._*
+
+# Compressed files
+*.zip
